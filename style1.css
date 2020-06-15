@@ -1,8 +1,9 @@
-body {
+/* body {
     background: yellow;
     font-size: 20px;
-}
+} */
 
+/* 05 */
 
 p {
     font-size: 12px;
@@ -14,4 +15,18 @@ p {
 
 .class {
     background: white;
+}
+
+/* 06 */
+
+.bg-page {
+    background: #00ff00;
+}
+
+.bg-element {
+    background: #acacac;
+}
+
+.bg-element-alpha {
+    background: rgba(123, 39, 200, 0.5);
 }
