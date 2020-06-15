@@ -30,3 +30,16 @@ p {
 .bg-element-alpha {
     background: rgba(123, 39, 200, 0.5);
 }
+
+/* 07 */
+
+html {
+    height: 100%;
+}
+
+.image-bg {
+    background: url('./img/external-content.duckduckgo.com.jpeg') top left no-repeat;
+    /* background: url('./img/external-content.duckduckgo.com.jpeg') bottom right repeat-y; */
+    /* background: url('./img/external-content.duckduckgo.com.jpeg') center repeat-x; */
+    /* background: url('./img/external-content.duckduckgo.com.jpeg'); */
+}
