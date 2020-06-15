@@ -89,3 +89,29 @@ html {
 .texttrans {
     text-transform: uppercase;
 }
+
+/* 10 */
+
+.border01 {
+    border:1px solid black;
+}
+
+.border02 {
+    border-style: dotted;
+    border-width: 3px;
+    border-color: wheat;
+}
+
+.border-none {
+    border: none;
+}
+
+.border-upper-bottom {
+    border-bottom: 10px dashed green;
+    border-top: 5px solid green;
+}
+
+.border-left-right {
+    border-right: 10px solid black;
+    border-left: 5px solid black;
+}
