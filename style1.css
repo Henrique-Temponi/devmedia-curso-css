@@ -2,3 +2,16 @@ body {
     background: yellow;
     font-size: 20px;
 }
+
+
+p {
+    font-size: 12px;
+}
+
+#intro {
+    font-size: 30px;
+}
+
+.class {
+    background: white;
+}
