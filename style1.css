@@ -38,8 +38,28 @@ html {
 }
 
 .image-bg {
-    background: url('./img/external-content.duckduckgo.com.jpeg') top left no-repeat;
+    background: url('./img/external-content.duckduckgo.com.jpeg') center no-repeat;
     /* background: url('./img/external-content.duckduckgo.com.jpeg') bottom right repeat-y; */
     /* background: url('./img/external-content.duckduckgo.com.jpeg') center repeat-x; */
     /* background: url('./img/external-content.duckduckgo.com.jpeg'); */
+}
+
+/* 08 */
+
+.font-01 {
+    font-size: 30px;
+}
+
+.font-02 {
+    color: #00ff00;
+}
+
+.font-03 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #acacac;
+}
+
+.font-page {
+    font-family: Arial, Helvetica, sans-serif;
 }
