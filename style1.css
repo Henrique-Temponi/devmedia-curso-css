@@ -146,3 +146,12 @@ html {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+/* 12 */
+
+.list {
+    /* list-style-image: none;
+    list-style-position: inside; */
+
+    list-style-type: katakana;
+}
