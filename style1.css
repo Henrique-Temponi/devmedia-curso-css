@@ -198,3 +198,36 @@ html {
 .ul-13 a:visited {
     color: yellow;
 }
+
+/* 14 */
+
+.table-14 {
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-14 td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.table-14 tr:hover {
+    background: blue;
+}
+
+.table-14 .trPar {
+    background: green;
+}
+
+.table-14 thead tr:hover {
+    background: none;
+    color: black;
+}
+
+.table-14 thead tr {
+    background: red;
+    color: white;
+}
