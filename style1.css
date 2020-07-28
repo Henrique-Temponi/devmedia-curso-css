@@ -282,3 +282,26 @@ html {
 .buttom-15:hover {
     background: black;
 }
+/* 16 */ 
+
+#divEx p::first-letter {
+    font-size: 25px;
+}
+
+#divEx p::first-line {
+    text-decoration: underline;
+}
+
+#divEx p:first-child {
+    background: yellow;
+}
+
+#divEx p:last-child {
+    background: red;
+    color: white;
+}
+
+#divEx p:nth-child(2) {
+    background: green;
+    color: whit;
+}
