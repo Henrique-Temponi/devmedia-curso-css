@@ -155,3 +155,46 @@ html {
 
     list-style-type: katakana;
 }
+
+/* 13 */
+
+.ul-13 {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    background: lightgrey;
+    width: 850;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.ul-13 > li {
+    /* float: left; */
+    display: inline;
+    margin: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.ul-13 a {
+    color: black    ;
+    text-decoration: none;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ul-13 a:hover {
+    background: grey;
+    text-decoration: underline;
+}
+
+.ul-13 a:active {
+    background: red;
+}
+
+.ul-13 a:visited {
+    color: yellow;
+}
