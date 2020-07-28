@@ -231,3 +231,54 @@ html {
     background: red;
     color: white;
 }
+
+/* 15 */
+
+#form-15 {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+#form-15 label {
+    display: block;
+}
+
+#form-15 textarea {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 150px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 7px;
+}
+
+#form-15 label input {
+    width: 350px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+#form-15 label input:hover {
+    border: 3px dashed black;
+}
+
+#form-15 textarea:focus {
+    border: 3px dashed black;
+}
+
+.buttom-15 {
+    border-radius: 10px;
+    border: 1px solid grey;
+    background: blue;
+    color: white;
+    padding: 10px;
+}
+
+.buttom-15:hover {
+    background: black;
+}
