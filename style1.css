@@ -451,3 +451,21 @@ html {
     background: yellow;
     clip: rect(0px 100px 100px 75px);
 }
+
+/* 22 */
+
+h3.title-22 {
+    -moz-text-shadow: 5px 5px 1px red, 10px 10px 1px yellow;
+    -webkit-text-shadow: 5px 5px 1px red, 10px 10px 1px yellow;
+    text-shadow: 5px 5px 1px red, 10px 10px 1px yellow;
+}
+
+div.div-text-22  {
+    width: 150px;
+    padding: 10px;
+    border: 1px solid gray;
+    
+    -moz-box-shadow: 10px 20px 1px blue, -10px -20px 30px green;
+    -webkit-box-shadow: 10px 20px 1px blue, -10px -20px 30px green;
+    box-shadow: 10px 20px 1px blue, -10px -20px 30px green;
+}
