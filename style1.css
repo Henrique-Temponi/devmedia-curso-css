@@ -400,3 +400,37 @@ html {
     color: white;
     padding: 10px;
 }
+
+/* 20 */
+
+.div-20 {
+    width: 500px;
+    height: 300px;
+    background: yellow;
+    border: 7px solid red;
+    position: absolute;
+
+    left: -moz-calc(50% - 250px);
+    left: -webkit-calc(50% - 250px);
+    left: calc(50% - 250px);
+
+    top: -moz-calc(50% - 250px);
+    top: -webkit-calc(50% - 250px);
+    top: calc(50% - 250px);
+}
+
+.div-20-2 {
+    width: 400px;
+    height: 200px;
+    background: green;
+    border: 7px solid blue;
+    position: absolute;
+
+    left: -moz-calc(50% - 200px);
+    left: -webkit-calc(50% - 200px);
+    left: calc(50% - 200px);
+
+    top: -moz-calc(50% - 100px);
+    top: -webkit-calc(50% - 100px);
+    top: calc(50% - 100px);
+}
