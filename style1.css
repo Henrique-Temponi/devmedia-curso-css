@@ -434,3 +434,20 @@ html {
     top: -webkit-calc(50% - 100px);
     top: calc(50% - 100px);
 }
+
+/* 21 */
+
+.div-21 {
+    position: absolute;
+    background: yellow;
+    width: 400px;
+    height: 300px;
+    border: 1px solid red;
+    clip: rect(50px 360px 260px 80px);
+}
+
+.img-21 {
+    position: absolute;
+    background: yellow;
+    clip: rect(0px 100px 100px 75px);
+}
