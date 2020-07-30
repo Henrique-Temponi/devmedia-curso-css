@@ -334,3 +334,38 @@ html {
     background: red;
     color: white;
 }
+
+/* 18 */
+
+.container-01 {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background: grey;
+}
+
+.container-01 .column {
+    background: red;
+    width: 312px;
+    float: left;
+    margin-left: 1px;
+}
+
+.container-01 .column:last-child {
+    float: right;
+}
+
+.clear-float {
+    clear: both;
+}
+
+.display-block, .display-inline {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.display-inline {
+    display: inline;
+}
