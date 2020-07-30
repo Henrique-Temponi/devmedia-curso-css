@@ -369,3 +369,34 @@ html {
 .display-inline {
     display: inline;
 }
+
+/* 19 */
+
+html {
+    width: 100%;
+}
+
+.body-01 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.modal-01 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: url("img/pngwing.com.png");
+    padding-top: 10%;
+}
+
+.modal-content {
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: 200px;
+    background: black;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+}
