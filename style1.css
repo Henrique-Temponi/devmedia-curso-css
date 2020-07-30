@@ -499,3 +499,42 @@ div.div-text-22  {
     border-top-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
+
+/* 24 */
+
+.a24 a[target] {
+    background: red;
+}
+
+.a24 a[target="_blank"] {
+    background: black;
+}
+
+.a24 a[title~="DevMedia"] {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.a24 a[href^="https"] {
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+.a24 a:empty {
+    width: 50px;
+    height: 20px;
+    background: yellow;
+    display: block;
+    border: 1px solid black;
+}
+
+.a24 input:disabled {
+    background: gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.a24 input:checked {
+    display: block;
+}
