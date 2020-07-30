@@ -305,3 +305,32 @@ html {
     background: green;
     color: whit;
 }
+
+/* 17 */
+
+.class-01, .class-02 {
+    background: yellow;
+    width: 150px;
+    height: 150px;
+    float: left;
+    display: block;
+    border: 1px solid black;
+    margin: 8px;
+}
+
+.class-02 {
+    background: grey;
+}
+
+.class-01 div {
+    font-size: 14px;
+}
+
+.class-01 > div {
+    font-size: 20px;
+}
+
+.class-01 .class-02 {
+    background: red;
+    color: white;
+}
