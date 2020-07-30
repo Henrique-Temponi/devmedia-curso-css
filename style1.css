@@ -472,7 +472,7 @@ div.div-text-22  {
 
 /* 23 */
 
-.mark {
+.mark, .mark-02 {
     width: 300px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -537,4 +537,18 @@ div.div-text-22  {
 
 .a24 input:checked {
     display: block;
+}
+
+/* 25 */
+
+.mark-02 {
+    transition: border-radius 2s linear 0.1s,
+        background 2s linear 0.1s,
+        font-size 2s linear 0.1s;
+}
+
+.mark-02:hover {
+    border-radius: 60px;
+    background: red;
+    font-size: 60px;
 }
