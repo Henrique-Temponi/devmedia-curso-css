@@ -594,3 +594,16 @@ div.div-text-22  {
     top: 0px;
     animation: animation26 5s ease 1s infinite alternate;
 }
+
+/* 27 */
+
+@font-face {
+    font-family: ubuntuCustom;
+    src: url('./Ubuntu-Regular.ttf') format('truetype');
+}
+
+
+.a27 p{
+    font-family: ubuntuCustom;
+    font-size: 20px;
+}
