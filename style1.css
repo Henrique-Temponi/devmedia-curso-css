@@ -552,3 +552,45 @@ div.div-text-22  {
     background: red;
     font-size: 60px;
 }
+
+/* 26 */
+
+@keyframes animation26 {
+    
+    0% {
+        background: black;
+        width: 100px;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+
+    25% {
+        background: green;
+        width: 150px;
+        position: absolute;
+        top: 400px;
+        left: 400px;
+    }
+
+    50% {
+        background: red;
+    }
+
+    75% {
+        background: yellow;
+    }
+
+    100% {
+        background: green;
+    }
+}
+
+.a26 {
+    width: 100px;
+    height: 150px;
+    border: 5px solid red;
+    position: absolute;
+    top: 0px;
+    animation: animation26 5s ease 1s infinite alternate;
+}
