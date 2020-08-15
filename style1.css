@@ -663,3 +663,28 @@ div.div-text-22  {
     transform: rotateY( 120deg );
     transform: rotateZ( 100deg );
 }
+
+/* 30 */
+
+.a30 #div-1 {
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    padding: 40px;
+    border: 20px solid red;
+    margin: 20px;
+    left: calc(50% - 400px);
+
+    background-image: url(./img/external-content.duckduckgo.com.jpeg),
+        url(./img/external-content.duckduckgo.com.jpeg);
+
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
+
+    
+    
+    background-origin: content-box;
+    /* background-origin: border-box; */
+    /* background-origin: padding-box; */
+    background-size: 50% 100%;
+}
