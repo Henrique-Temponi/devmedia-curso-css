@@ -630,3 +630,36 @@ div.div-text-22  {
     transform: translate(50px, 100px);
 
 }
+
+/* 29 */
+
+.a29 #a29-div01, .a29 #a29-div02 {
+    perspective: 600px;
+    display: block;
+    width: 240px;
+    padding: 10px;
+    float: left;
+    margin: 20px;
+}
+
+.a29 #a29-div01 #a29-img01 {
+    transform: rotateY( 0deg );
+    transform: rotateX( 0deg );
+    transition: transform 1s linear 0.1s;
+}
+
+.a29 #a29-div01 #a29-img01:hover {
+    transform: rotateY( 0deg );
+    transform: rotateX( 50deg );
+}
+
+.a29 #a29-div02 #a29-img02 {
+    transform: rotateY( 0deg );
+    transform: rotateZ( 0deg );
+    transition: transform 1s linear 0.1s;
+}
+
+.a29 #a29-div02 #a29-img02:hover {
+    transform: rotateY( 120deg );
+    transform: rotateZ( 100deg );
+}
