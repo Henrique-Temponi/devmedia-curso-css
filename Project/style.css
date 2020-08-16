@@ -15,6 +15,11 @@ body {
     color: black;
 }
 
+div {
+    display: table;
+    width: 100%;
+}
+
 /* layout */
 
 .container {
@@ -28,14 +33,48 @@ body {
 .container .row {
     display: table;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .logo-column {
     width: 270px;
     float: left;
+    margin-top: 10px;
 }
 
 .menu-column {
     width: 650px;
     float: right;
+}
+
+/* menu */
+
+.container-menu {
+    background: white;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 20px;
+}
+
+.container-menu a {
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 16px 20px;
+    color: black;
+    transition: 
+        background 0.5s ease-out,
+        color 0.5s ease-out;
+}
+
+.container-menu a:hover {
+    background: black;
+    color: white;
+}
+
+.container-menu a:first-child {
+    margin-left: 6px;
+}
+
+.border-radius {
+    border-radius: 8px;
 }
