@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: ubuntuCustom;
+    src: url(./../Theory/Ubuntu-Regular.ttf) format("truetype");
+}
+
+body {
+    background: url(./img/qGdiBnD.jpg);
+    font-family: ubuntuCustom;
+    font-size: 14px;
+    color: black;
+}
+
+/* layout */
+
+.container {
+    width: 100%;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.container .row {
+    display: table;
+    width: 100%;
+}
+
+.logo-column {
+    width: 270px;
+    float: left;
+}
+
+.menu-column {
+    width: 650px;
+    float: right;
+}
