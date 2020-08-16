@@ -59,11 +59,11 @@ div {
     text-decoration: none;
     display: block;
     float: left;
-    padding: 16px 20px;
+    padding: 16px 49px;
     color: black;
     transition: 
         background 0.5s ease-out,
-        color 0.5s ease-out;
+        color 0.5s ease-out;   
 }
 
 .container-menu a:hover {
@@ -72,7 +72,7 @@ div {
 }
 
 .container-menu a:first-child {
-    margin-left: 6px;
+    margin-left: 15px;
 }
 
 .border-radius {
