@@ -25,6 +25,11 @@ p {
     padding-bottom: 10px;
 }
 
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
 /* layout */
 
 .container {
@@ -121,6 +126,31 @@ p {
     background: rgba(255, 255, 255, 0.7);
 }
 
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.initial-icon {
+    width: 221px;
+    float: left;
+    margin: 8px;
+}
+
+.initial-icon:first-child {
+    margin-left:5px;
+}
+
+.initial-icon:last-child {
+    margin-right: 0px;
+}
+
+.icon, .title-icon {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 /* slider */
 
 #container-slider {
@@ -136,6 +166,16 @@ p {
     border: 1px solid white;
 }
 
+.hover-effect {
+    transition: 
+        background 0.5s ease-out,
+        color 0.5s ease-out;  
+}
+
+.hover-effect:hover {
+    background: rgba(255, 255, 255, 0.6);
+}
+
 .intern-margin {
     margin: 6px;
     width: 97%;
@@ -145,4 +185,11 @@ p {
     width: 150px;
     height: 150px;
     background: black;
+}
+
+.icon-placeholder {
+    width: 200px;
+    height: 100px;
+    background: black;
+    margin-left: 5px;
 }
