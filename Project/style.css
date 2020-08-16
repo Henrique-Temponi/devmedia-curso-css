@@ -78,3 +78,14 @@ div {
 .border-radius {
     border-radius: 8px;
 }
+
+/* slider */
+
+#container-slider {
+    width: 950px;
+    height: 295px;
+    overflow: hidden;
+    box-shadow: 1px 1px 8px black, -1px -1px 8px black;
+    margin-left: auto;
+    margin-right: auto;
+}
